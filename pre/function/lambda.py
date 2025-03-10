@@ -7,10 +7,11 @@ print(new_nums)  # [144, 64, 3600, 2704]
 filter,map,reduce
 """
 
-#reduce
+#reduce?
 from functools import reduce
 numbers = [1, 2, 3, 4, 5]
 sum_result = reduce(lambda x, y: x + y, numbers)
 print(sum_result)  # 输出: 15
 
 #从左到右依次对元素进行积累
+
